@@ -43,7 +43,7 @@ class _HomepgState extends State<Homepg> {
           index=value;
         });
       },
-        selectedItemColor: Colors.green,unselectedItemColor: Colors.green,showUnselectedLabels: true,
+        selectedItemColor: Colors.green.shade500,unselectedItemColor: Colors.green.shade200,showUnselectedLabels: true,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chats"),
           BottomNavigationBarItem(icon: Icon(Icons.update),label: "Updates"),
